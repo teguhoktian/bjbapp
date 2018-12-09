@@ -3,7 +3,7 @@
 @section('content')
     <div class='row'>
         <div class='col-md-12'>
-            About US
+            {{ __('About Us') }}
         </div><!-- /.col -->
     </div><!-- /.row -->
 @endsection

@@ -35,6 +35,7 @@ class AppGoalController extends Controller
 
     public function bookingKreditApprovalData(Request $request)
     {
+        //Ajax Request
         if($request->ajax()) {
             $goal = Booking_kredit_goal::select([
                 'booking_kredit_goals.id', 

@@ -5,5 +5,5 @@
       Developed by <strong>Hoki Teguh Oktian</strong>
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2018.</strong> All rights reserved.
+    <strong>{{ __('Copyright') }} &copy; 2018.</strong> All rights reserved.
   </footer>
